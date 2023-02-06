@@ -16,7 +16,7 @@ export default function Home(){
             <Input variant={"outline"} width={"80"} type='number' />
            </HStack>
            <HStack>
-           
+           console.log()
             </HStack> 
             
             <HStack>
