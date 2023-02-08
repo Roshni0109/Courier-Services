@@ -4,7 +4,7 @@ import { Heading } from '@chakra-ui/react';
 import { Divider } from '@chakra-ui/react'
 import {VStack,Stack} from '@chakra-ui/react'
 import {Button} from '@chakra-ui/react'
-import {   MdCall, MdEmail } from "react-icons/md"
+import { MdCall, MdEmail } from "react-icons/md"
 import Home from "./Home";
 import Login from "./Login";
 import SignUp from "./SignUp";
@@ -32,16 +32,16 @@ return(
     </Center>
   </TabList>
   <TabPanels >
-    <TabPanel >
+    <TabPanel h="50rem" w="50rem" >
           <Home/>
     </TabPanel>
-    <TabPanel>
+    <TabPanel h="50rem" w="40rem">
         <Login/>
     </TabPanel>
-    <TabPanel>
+    <TabPanel h="50rem" w="40rem">
           <SignUp/>
     </TabPanel>
-    <TabPanel>
+    <TabPanel h="50rem" w="40rem">
         <TrackShipment/>
     </TabPanel>
   </TabPanels>

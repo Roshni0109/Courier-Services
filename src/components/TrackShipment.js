@@ -1,6 +1,8 @@
 import React from "react";
 import { Box, Button, ButtonGroup, FormControl, FormLabel, HStack, Input, Radio, RadioGroup } from "@chakra-ui/react"
+
 export default function TrackShipment(){
+
     return(
         <div>
                 <Box borderRadius = {"xl"} bg='lavenderblush' w='100' p={"30"} color='black'>
@@ -15,7 +17,7 @@ export default function TrackShipment(){
                 <Input variant={"outline"}  type='number'></Input>
             </FormControl>
             <ButtonGroup   p={4} variant='solid' spacing='6'>
-                <Button  colorScheme='blue'>GO</Button>
+                <Button colorScheme='blue'>GO</Button>
                 </ButtonGroup>
         </Box>
 

@@ -6,24 +6,24 @@ export default function SignUp(){
             <Box borderRadius = {"xl"} bg='lavenderblush' w='100' p={"30"} color='black'>
       <FormControl>
         <HStack>
-        <FormLabel>FirstName</FormLabel>
+        <FormLabel >FirstName</FormLabel>
             <Input type='text' />
-            <FormLabel>LastName</FormLabel>
+            <FormLabel width={"80"}>LastName</FormLabel>
             <Input type='text' />
         </HStack>
             <HStack>
-            <FormLabel>Email address</FormLabel>
+            <FormLabel width={"80"}>Email address</FormLabel>
             <Input type='email' />
-            <FormLabel>Phone Number</FormLabel>
+            <FormLabel width={"80"}>Phone Number</FormLabel>
             <Input type='number' />
             </HStack>
             
-            <FormLabel>Address</FormLabel>
+            <FormLabel width={"80"}>Address</FormLabel>
             <Input type='text' />
             <HStack>
-            <FormLabel>Password</FormLabel>
+            <FormLabel width={"80"}>Password</FormLabel>
             <Input type='password' />
-            <FormLabel> Confirm Password</FormLabel>
+            <FormLabel width={"80"}> Confirm Password</FormLabel>
             <Input  type='password' />
 
             </HStack>

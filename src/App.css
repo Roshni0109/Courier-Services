@@ -1,5 +1,8 @@
 body{
-  background-image: url("./components/img4.jpg") !important;
-  background-repeat: "no-repeat";
-  background-size: 100% 100%;
+  
+    background-image: url("./components/img4.jpg") !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+
 }
